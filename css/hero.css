@@ -1,6 +1,9 @@
 html, body{
     font-family: Arial, sans-serif;
     margin: 0px;
+    background-color:  #ffff99;
+    font-family: Cambria;
+    font-size: 20px;
 
 }
 header{
@@ -27,6 +30,14 @@ header img{
 
 img.big-image{
     max-width: 100%;
+
+}
+.big-image{
+    margin-left: 20px;
+}
+.big-image1{
+    border: 1px solid transparent;
+    padding: 1px;
 }
 
 p.caption{
@@ -44,6 +55,16 @@ ul{
 a{
     color: pink;
     text-decoration: none;
+}
+
+.rounded-background{
+      border-radius: 25px;
+      background: #80ffff;
+      padding: 20px;
+      width: 200px;
+      height: 80px;
+      font-family: Didot;
+      font-size: 35px;
 }
 
 footer{
